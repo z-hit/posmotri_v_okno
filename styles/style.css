@@ -11,12 +11,11 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: 0 auto;
+  margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  padding: 133px 30px;
 }
 
 h1,
@@ -40,11 +39,12 @@ ol {
 
 .content {
   inline-size: 1140px;
-  block-size: 534px;
   display: flex;
   flex-direction: row;
   gap: 30px;
   align-items: end;
+  padding: 133px 30px;
+
 }
 
 .visually-hidden {
